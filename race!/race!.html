@@ -1,0 +1,37 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>raceregistration</title>
+    <link rel="stylesheet" href="race!.css">
+</head>
+<body>
+    <h1>RACE REGISTRATION !</h1><br>
+    <p>Eligibilty for this race is: <br> age should be more than 14 years and less than 25</p>
+  <form action="/race">
+    <label for="firstname">Enter your first name:</label>
+      <input type="text" id="firstname" required>
+    <label for="last">Enter your last name:</label>
+      <input type="text" id="lastname" required><br>
+      <p>Select a Race:</p><br>
+    <label for="run5km">Fun Run 5Km</label>
+       <input type="radio" name="race" id="run5km" required><br>
+    <label for="halfmarathon">Half Marathon</label>
+       <input type="radio" name="race" id="halfmarathon" required><br>
+    <label for="fullmarathon">Full Marathon</label>
+       <input type="radio" name="race" id="fullmarathon" required><br>
+    <label for="email">Email:</label>
+       <input type="email" id="email" name="email" required>
+    <label for="pass">Password:</label>
+       <input type="password" id="pass" name="pass" required><br>
+    <label for="agegrp">Select Your Age Group:</label>
+        <select name="age_group" id="agegrp" required>
+           <option value="kids">under 18</option><br>
+           <option value="ya">18-30</option><br>
+           <option value="adult">30-50</option><br>
+           <option value="senior">more than 50</option><br> 
+        </select><br>
+     <button>REGISTOR</button>
+</body>
+</html>
